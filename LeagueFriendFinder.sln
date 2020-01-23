@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeagueFriendFinder", "LeagueFriendFinder.csproj", "{8278D1B9-3FD4-443E-B2DE-F4E1A4DC0D1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoboBot", "..\RoboBot\RoboBot.csproj", "{4C1B4EE3-C7A3-4E12-9515-1A2D5CEF0D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VKRoboBot", "..\VKRoboBot\VKRoboBot.csproj", "{0097A445-A248-4D7C-8E8E-DB4A72C0D1DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8278D1B9-3FD4-443E-B2DE-F4E1A4DC0D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8278D1B9-3FD4-443E-B2DE-F4E1A4DC0D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8278D1B9-3FD4-443E-B2DE-F4E1A4DC0D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8278D1B9-3FD4-443E-B2DE-F4E1A4DC0D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1B4EE3-C7A3-4E12-9515-1A2D5CEF0D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1B4EE3-C7A3-4E12-9515-1A2D5CEF0D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1B4EE3-C7A3-4E12-9515-1A2D5CEF0D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1B4EE3-C7A3-4E12-9515-1A2D5CEF0D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0097A445-A248-4D7C-8E8E-DB4A72C0D1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0097A445-A248-4D7C-8E8E-DB4A72C0D1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0097A445-A248-4D7C-8E8E-DB4A72C0D1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0097A445-A248-4D7C-8E8E-DB4A72C0D1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C915DB5B-DDBA-4CA3-BE40-8C363B54E7C1}
+	EndGlobalSection
+EndGlobal
