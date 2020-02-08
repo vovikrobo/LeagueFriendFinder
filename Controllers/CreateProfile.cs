@@ -50,46 +50,5 @@ namespace LeagueFriendFinder.Controllers
             }
         }
     }
-
-
-    //[HttpPost]
-    //public async void Post(
-    //string IsLicenseAccepted,
-    //string VkontakteUserID,
-    //string InGameAccountNickname,
-    //string ServerOfInGameAccount,
-    //string RankedLeague, 
-    //string RankedDivision,
-    //string IsSearchingForPlayingInTeam, 
-    //string IsSearchingForPlayingRankeds, 
-    //string IsSearchingJustToFindNewFriends, 
-    //string CommentAboutHimself, 
-    //string PrefferedRole1, 
-    //string PrefferedRole2,
-    //string WhoIAmSearchingForComment,
-    //string MostPlayedChampions)
-    //{
-    //    Profile newProfile = new Profile{
-    //        DateOfRegistrationInService = DateTime.Now,
-    //        Boolean.TryParse(IsLicenseAccepted, out newProfile.IsLicenseAccepted),
-    //        VkontakteUserID = VkontakteUserID,
-    //        InGameAccountNickname = InGameAccountNickname,
-    //        ServerOfInGameAccount = ServerOfInGameAccount,
-    //        RankedLeague = RankedLeague,
-    //        RankedDivision = RankedDivision,
-    //        IsSearchingForPlayingInTeam = IsSearchingForPlayingInTeam,
-    //        IsSearchingForPlayingRankeds = IsSearchingForPlayingRankeds,
-    //        IsSearchingJustToFindNewFriends = IsSearchingJustToFindNewFriends,
-    //        CommentAboutHimself = CommentAboutHimself,
-    //        PrefferedRole1 = PrefferedRole1,
-    //        PrefferedRole2 = PrefferedRole2,
-    //        WhoIAmSearchingForComment = WhoIAmSearchingForComment,
-    //        MostPlayedChampions = MostPlayedChampions };
-    //    if (newProfile.IsLicenseAccepted == true)
-    //    {
-    //        _context.Add(newProfile);
-    //        await _context.SaveChangesAsync();
-    //    }
-    //}
 }
 

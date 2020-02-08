@@ -53,8 +53,6 @@ namespace LeagueFriendFinder.Controllers
             }
 
             JsonSerializer json = JsonSerializer.Create();
-            //JsonWriter jsonWriter;
-            //jsonWriter.
 
 
             var dummyJsonResult = _context.Profiles.Where(p => p.IsActiveProfile == true && p.IsLicenseAccepted == true)

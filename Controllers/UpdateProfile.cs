@@ -33,26 +33,13 @@ namespace LeagueFriendFinder.Controllers
                 
                 if (profileToUpdate.IsLicenseAccepted == true)
                 {
-                    //_context.Profiles.Where (profileToUpdate);
-                    //var profileToUpdate = _context.Profiles.FirstOrDefault(item => item.VkontakteUserID == tempProfile.VkontakteUserID);
-                    
-                    
 
                     if (profileToUpdate != null)
                     {
-     //                   var configuration = new MapperConfiguration(cfg =>
-     //                   {
-     //                       cfg.CreateMap<Models.Profile, Models.Profile>()
-     //.ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
-     //                   });
-     //                   AutoMapper.Mapper map = new Mapper(configuration);
-     //                   map.Map(tempProfile, profileToUpdate);
+
 
                         profileToUpdate.DateOfLastModify = DateTime.Now;
-                        // profileToUpdate.Id = tempProfileId;
-                        // tempProfile = profileToUpdate;
-                        //_context.Entry(tempProfile).State = EntityState.Modified;
-                        
+                       
                             
                         _context.Update<Models.Profile>(profileToUpdate);
 
